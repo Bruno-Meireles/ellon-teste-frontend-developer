@@ -1,0 +1,548 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    --cor--branco: #FFF;
+    --cor--fundo: #F6F1F1;
+    --cor--titulo: #146C94;
+    --cor--letras: #000000;
+    --cor--quadros: #19A7CE;
+
+
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Ajuste body */
+
+body {
+
+    background-color: var(--cor--quadros);
+    overflow-x: hidden;
+}
+
+/* Cabeçalho da página com logo */
+
+.cabecalho {
+    text-align: center;
+    background-color: var(--cor--branco);
+}
+
+/* Cabeçalho da página com logo */
+.cabecalho-whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #25D366;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+/* Cabeçalho da página texto */
+.whatsapp-texto {
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 14px;
+}
+
+/* box com titulo e formulário*/
+.apresentacao {
+    text-align: center;
+    background-color: var(--cor--quadros);
+    color: var(--cor--letras);
+}
+
+/* Titulo da página Apeperia*/
+.apresentacao-titulo {
+    margin: 40px;
+    font-size: 2.5rem;
+    color: var(--cor--branco);
+    font-weight: bold;
+}
+/* Paragrafo da página*/
+.apresentacao-paragrafo {
+    color: var(--cor--branco);
+    font-size: 1.13rem;
+    line-height: 32px;
+}
+
+/* Formulario*/
+.formulario {
+    text-align: center;
+    border: solid 2px var(--cor--titulo);
+    background-color: var(--cor--branco);
+    margin: 40px 15px 0 15px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.formulario-titulo {
+    font-size: 2rem;
+    color: var(--cor--titulo);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+input {
+    margin: 15px 0px 15px;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 1.13rem;
+}
+
+::placeholder {
+    color: var(--cor--titulo);
+    font-size: 1.13rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    padding: 7px;
+    margin-top: 6px;
+    font-size: 1.73rem;
+    border-radius: 8px;
+
+}
+
+.botao {
+    margin: 15px auto;
+    font-size: 1.10rem;
+    width: 266px;
+    height: 52px;
+    background-color: var(--cor--quadros);
+    color: var(--cor--branco);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: var(--cor--fundo);
+    background-color: var(--cor--titulo);
+    transition: 0.5s;
+}
+
+
+
+/* Quem somos */
+
+
+.sobre-imagem {
+    width: 95%;
+    margin: 10px;
+
+}
+
+.sobre {
+    text-align: center;
+    margin-top: 10px;
+    background-color: var(--cor--branco);
+    width: 100vw;
+}
+
+.sobre-titulo {
+    font-size: 2.3rem;
+    padding: 20px;
+    color: var(--cor--titulo);
+}
+
+.sobre-paragrafo {
+    font-size: 1.13rem;
+    line-height: 32px;
+    padding: 11px;
+}
+
+
+/* Vantagens */
+
+.vantagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor--titulo);
+    color: var(--cor--fundo);
+}
+
+.vantagens-titulo {
+    font-size: 2.3rem;
+    color: var(--cor--branco);
+    background-color: var(--cor--titulo);
+    text-align: center;
+    padding: 18px;
+}
+
+.icons {
+    font-size: 2.5rem;
+    color: var(--cor--fundo--cabecalho);
+    padding: 14px;
+}
+
+.vantagens-box-titulo {
+    font-size: 2rem;
+    color: var(--cor--branco);
+
+}
+
+.vantagens-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 13px;
+    margin: 10px;
+}
+
+.vantagens-box-subtitulo {
+    font-size: 1.40rem;
+    margin: 12px;
+}
+
+.fundo-botao {
+    text-align: center;
+    background-color: var(--cor--titulo);
+}
+
+.botao-vantagens {
+    margin: 15px auto;
+    font-size: 1.10rem;
+    width: 266px;
+    height: 52px;
+    background-color: var(--cor--quadros);
+    color: var(--cor--branco);
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+/* Perguntas frequentes */
+
+
+
+.detlhes {
+    width: 100vw;
+}
+
+section.perguntas {
+    text-align: center;
+}
+
+.title-perguntas {
+    margin: 15px;
+}
+
+.title-perguntas-frequentes {
+    color: var(--cor--branco);
+    background-color: var(--cor--quadros);
+}
+
+details>summary {
+    padding: 14px;
+    background-color: var(--cor--branco);
+    border: none;
+    box-shadow: 1px 1px 2px var(--cor--titulo);
+    cursor: pointer;
+}
+
+details :hover {
+    background-color: var(--cor--quadros);
+    color: var(--cor--branco);
+    border: solid 1px var(--cor--letras);
+}
+
+
+details>p {
+    background-color: var(--cor--fundo);
+    padding: 4px;
+    margin: 0;
+    box-shadow: 1px 1px 2px var(--cor--quadros);
+}
+
+
+
+/*  Primeira versão em até 5 dias úteis */
+
+
+.enviar-agendar {
+    margin: 50px 15px 15px 15px;
+    background-color: var(--cor--branco);
+    border-radius: 8px;
+    font-size: 1.73rem;
+    padding: 25px;
+    text-align: center;
+}
+
+.chamada-final {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.chamada-titulo-paragrafo {
+    padding: 42px;
+    background-color: var(--cor--branco);
+
+}
+
+.chamada-titulo {
+    font-size: 2rem;
+    color: var(--cor--titulo);
+    text-align: center;
+}
+
+.chamada-paragrafo {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2px;
+    line-height: 36px;
+
+}
+
+.text-color {
+    color: var(--cor--quadros);
+}
+
+.tenha-acesso {
+    color: var(--cor--fundo--cabecalho);
+    font-size: 1.3rem;
+}
+
+.paragrafo {
+    font-size: 1.3rem;
+    color: var(--cor--fundo--cabecalho);
+}
+
+/* Footer */
+
+
+.footer-text {
+    text-align: center;
+    background-color: var(--cor--letras);
+    color: var(--cor--branco);
+}
+
+
+
+
+
+
+
+/* Desktop */
+
+/* Primeira seção Apeperia aplicativos na medida. */
+
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        display: flex;
+        justify-content: space-around;
+        gap: 285px;
+        padding: 10px;
+    }
+
+
+    .cabecalho-whatsapp {
+        background-color: var(--cor--branco);
+    }
+
+    .cabecalho-logo {
+        border: ridge;
+    }
+
+    .apresentacao {
+        display: flex;
+        align-items: baseline;
+        margin-right: 172px;
+
+    }
+
+    .apresentacao-titulo {
+        text-indent: 144px;
+        text-align: left;
+        font-size: 2.6rem;
+    }
+
+
+
+    .apresentacao-paragrafo {
+        font-size: 1.13rem;
+        margin-left: 177px;
+        text-align: initial;
+    }
+
+
+    .icone {
+        color: #25D366;
+
+    }
+
+    /* Segunda seção Quem somos.*/
+
+    .sobre {
+        text-align: initial;
+    }
+
+
+    .sobre-imagem {
+        margin-left: 13%;
+        margin-bottom: 39px;
+
+    }
+
+    .sobre-conteudo {
+        display: flex;
+        justify-content: space-between;
+        align-items: initial;
+        gap: 36px;
+
+    }
+
+    .sobre-titulo {
+        padding: 0;
+        margin-top: 68px;
+        text-align: initial;
+    }
+
+    .sobre-paragrafo {
+        margin: 0;
+        font-size: 1.2rem;
+        margin-right: 22%;
+    }
+
+
+    /* Vantagens */
+
+
+    .vantagens-titulo {
+        color: var(--cor--branco);
+    }
+
+    .vantagens-box-titulo {
+        color: var(--cor--branco);
+        font-size: 1.2rem;
+        text-align: initial;
+        margin: 12px;
+
+    }
+
+
+    .vantagens-box-subtitulo {
+        font-size: 1.1rem;
+        text-align: initial;
+
+    }
+
+    .icons {
+        padding: 0;
+    }
+
+    .vantagens {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0, 20px, 0, 20px;
+        align-content: space-between;
+        align-items: flex-start;
+    }
+
+
+
+    .vantagens-box {
+        display: flex;
+        width: 33%;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .vantagens-info {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+
+    .fundo-botao {
+        background-color: var(--cor--titulo);
+    }
+
+
+    /* Perguntas Frequentes */
+
+
+    .perguntas {
+        text-align: center;
+        background-color: var(--cor--branco);
+        width: 100vw;
+        color: var(--cor--quadros);
+
+    }
+
+    .chamada-titulo-paragrafo {
+        background-color: var(--cor--quadros);
+        margin-top: 33px;
+    }
+
+    .chamada-final {
+        display: flex;
+        flex-direction: row;
+        max-width: 75%;
+        gap: 105px;
+        margin: 27px 0px 50px 120px;
+
+    }
+
+    .tenha-acesso {
+        font-size: 1rem;
+    }
+
+    .botao {
+        font-size: 1, 2rem;
+        width: 93%;
+    }
+
+    .chamada-titulo {
+        text-align: initial;
+        color: var(--cor--branco);
+        margin-left: 85px;
+    }
+
+    .chamada-paragrafo {
+        font-size: 1rem;
+        margin: 0;
+        color: var(--cor--branco);
+        text-align: left;
+        margin-left: 85px;
+
+    }
+
+    .paragrafo {
+        font-size: 0.9rem;
+    }
+
+    /* footer */
+
+    .footer-text {
+        padding: 10px;
+        width: 100vw;
+    }
+
+    .paragrafo-footer {
+        padding: 2px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1600px) {
+    .cabecalho {
+        gap: 43%;
+
+    }
+
+
+}
